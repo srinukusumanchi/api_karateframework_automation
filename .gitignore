@@ -1,0 +1,8 @@
+*.iml
+*.zip
+/.idea
+/src/main/resources/Features/XRayDownload
+/target
+/test-results
+*.log
+.gitattributes

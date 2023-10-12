@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:PegaRULES:SOAP:NBAData:Services">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:GetNBARequest>
+         <ChannelCode>$ChannelCode$</ChannelCode>
+                  <ContextType>$ContextType$</ContextType>
+                  <ContextValue>$ContextValue$</ContextValue>
+                  <ID>$ID$</ID>
+                  <IDType>$IDType$</IDType>
+                  <LanguageCode>$LanguageCode$</LanguageCode>
+                  <LeadScope>$LeadScope$</LeadScope>
+                  <RequestID>$RequestID$</RequestID>
+                  <!--1 or more repetitions:-->
+                  <AdditionalContext>
+                     <ContextType>$Additional1$</ContextType>
+                      <ContextValue>$Additional2$</ContextValue>
+                  </AdditionalContext>
+               </urn:GetNBARequest>
+            </soapenv:Body>
+         </soapenv:Envelope>

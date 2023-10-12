@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:PegaRULES:SOAP:NBAData:Services">
+    <soap:Header/>
+    <soap:Body>
+        <urn:SetDispositionRequest>
+            <AgentID>$AgentID$</AgentID>
+            <ChannelCode>$ChannelCode$</ChannelCode>
+            <ID>$ID$</ID>
+            <!--1 or more repetitions:-->
+            <LeadCodes>
+                <ZoneCode></ZoneCode>
+                <ResponseCode>$ResponseCode$</ResponseCode>
+                <ResponseTrackingCode>$ResponseTrackingCode$</ResponseTrackingCode>
+                <TreatmentTrackingCode>$TreatmentTrackingCode$</TreatmentTrackingCode>
+            </LeadCodes>
+        </urn:SetDispositionRequest>
+    </soap:Body>
+</soap:Envelope>

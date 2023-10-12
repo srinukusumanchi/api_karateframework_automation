@@ -1,0 +1,16 @@
+{
+  "channel_code": "$ChannelCode$",
+  "id_type": "$IDType$",
+  "id_value": "$ID$",
+  "language_code": "$LanguageCode$",
+  "request_id": "$RequestID$",
+  "offer_lead_scope": "$LeadScope$",
+  "channel_context_type": "$ContextType1$",
+  "channel_context_value": "$ContextValue1$",
+  "additional_context": [
+    {
+      "context_type": "$ContextType$",
+      "context_value": "$ContextValue$"
+    }
+  ]
+}
